@@ -3,7 +3,7 @@ body{
 }
 
 .bait-logo{
-  width: 50%;
+  width: 70%;
 
 }
 .image-col{
@@ -19,5 +19,6 @@ body{
 
 .h1-coming{
   color: blue;
+  font-size:34px;
 
 }
