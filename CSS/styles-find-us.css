@@ -3,12 +3,7 @@
   font-family: GE-SS-Two-Bold;
   src: url('../font/GE-SS-Two-Bold.otf');
 }
-body{
-  background-image: url(../images/out-side.jpg);
-  background-repeat:no-repeat;
-  background-attachment: fixed;
-  background-size:100% 100%;
-  }
+
 
 /* small mobile */
 .menu-contact-section{
@@ -18,6 +13,14 @@ margin-top: 8vw;
 
 /* small mobile */
 @media only screen and (min-width: 360px) and (max-width: 640px) {
+
+  body{
+    background-image: url(../images/out-side.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    }
 
 /* nav section */
 
@@ -132,6 +135,14 @@ font-size: 4vw;
 
 /* larg mobile */
 @media only screen and (min-width: 414px) and (max-width: 767px) {
+
+  body{
+    background-image: url(../images/out-side.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    }
 
   /* nav section */
 

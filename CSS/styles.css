@@ -17,12 +17,11 @@ margin-top: 8vw;
 
 
   body{
-    background-image: url(../images/dark..jpg);
+    background-image: url(../images/try.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-position: right;
-
-      }
+    background-size: cover;
+ }
 
 
 /* nav section */
@@ -155,11 +154,10 @@ font-size: 4vw;
 @media only screen and (min-width: 414px) and (max-width: 767px) {
 
   body{
-    background-image: url(../images/dark..jpg);
+    background-image: url(../images/try.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-position: right;
-    
+    background-size: cover;
       }
 
 

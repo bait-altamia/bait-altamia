@@ -17,11 +17,10 @@ margin-top: 8vw;
 
 
   body{
-    background-image: url(../images/dark..jpg);
+    background-image: url(../images/try.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-position: right;
-  
+    background-size: cover;
       }
 
 
@@ -120,11 +119,10 @@ font-size: 4vw;
 @media only screen and (min-width: 414px) and (max-width: 767px) {
 
   body{
-    background-image: url(../images/dark..jpg);
+    background-image: url(../images/try.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-position: right;
-
+    background-size: cover;
       }
 
 
@@ -224,11 +222,10 @@ font-size: 4vw;
 /* 961 or above for dicktop */
   @media only screen and (min-width: 961px) {
     body{
-      background-image: url(../images/dark..jpg);
+      background-image: url(../images/try.jpg);
       background-repeat:no-repeat;
       background-attachment: fixed;
-      background-position: right;
-      background-size: 100% 100%;
+      background-size: cover;
         }
 
 
