@@ -1,0 +1,436 @@
+/* how to add local font */
+@font-face {
+  font-family: GE-SS-Two-Bold;
+  src: url('../font/GE-SS-Two-Bold.otf');
+}
+.menu-contact-section{
+margin-top: 8vw;
+
+}
+
+
+/* LARG SCREEN AND LAPTOPS */
+
+
+/* small mobile */
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+
+
+  body{
+    background-image: url(../images/dark..jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+
+      }
+
+
+/* nav section */
+.nav-background{
+  background-color:#193F6D!important;
+
+}
+
+.logo-size{
+width: 23vw;
+border-radius: 25%;
+margin-right: 3vw;
+
+}
+#navbarNav{
+  text-align: right;
+}
+
+
+/* menu-contact-section section */
+
+.menu-contact-section{
+  margin-top: 20vw;
+}
+
+.menu-contact-section-div{
+  text-align: center;
+  margin-bottom: 15vw;
+
+}
+
+.menu-icon-img{
+  width: 25vw;
+}
+.menu-icon-img-contact{
+  width: 17vw;
+  margin: 0 6vw;
+}
+
+.h1-menu{
+  font-size: 9vw;
+  margin-top: 5vw;
+  font-family: GE-SS-Two-Bold;
+color: white;
+}
+
+.h1-find-us{
+  font-size: 9vw;
+  margin-top: 5vw;
+  font-family: GE-SS-Two-Bold;
+color: white;
+}
+
+}
+
+/* image slider section */
+.card{
+  background-color: inherit!important;
+  border-style: dotted!important;
+  border-color: white!important;
+  margin: 5vw;
+width: 90vw;
+height: 75vw;
+}
+.card-body{
+  padding: 1vw!important;
+}
+/* this class is for the height and the width of the images */
+.w-100{
+  height: 72vw!important;
+  border-radius: 2vw;
+}
+
+/* footer section */
+.footer-section{
+  margin-top: 20vw;
+  opacity: 80%;
+  background-color: black;
+
+
+}
+
+.h4-about-us{
+  font-family: GE-SS-Two-Bold;
+color: white;
+text-align: right;
+margin-right: 5vw;
+font-size: 8vw;
+margin-bottom: 7vw;
+
+}
+
+.p-text-about-us{
+  font-family: GE-SS-Two-Bold;
+color: white;
+text-align: right;
+font-size: 5vw;
+
+}
+.li-width{
+  width: 60vw;
+  margin-left:35vw;
+}
+
+/* links */
+.right-links{
+  text-align: right;
+  margin-top: 20vw;
+  }
+
+  .links-right-h5{
+    font-size: 7vw;
+    color: white;
+  }
+.links-right{
+  margin-right: 5vw;
+  color: white;
+  font-family: GE-SS-Two-Bold;
+}
+
+.copy-right{
+color: white;
+font-size: 4vw;
+}
+
+.pt-4,.py-4{
+  height: 131vw!important;
+}
+/* larg mobile */
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+
+  body{
+    background-image: url(../images/dark..jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    
+      }
+
+
+  /* nav section */
+  .nav-background{
+    background-color: #193F6D!important;
+  }
+
+  .logo-size{
+  width: 23vw;
+  border-radius: 25%;
+  margin-right: 3vw;
+
+  }
+  #navbarNav{
+    text-align: right;
+  }
+
+
+  /* menu-contact-section section */
+
+  .menu-contact-section{
+    margin-top: 20vw;
+  }
+
+  .menu-contact-section-div{
+    text-align: center;
+    margin-bottom: 15vw;
+
+  }
+
+  .menu-icon-img{
+    width: 25vw;
+  }
+  .menu-icon-img-contact{
+    width: 17vw;
+    margin: 0 6vw;
+  }
+
+  .h1-menu{
+    font-size: 9vw;
+    margin-top: 5vw;
+    font-family: GE-SS-Two-Bold;
+  color: white;
+  }
+
+  .h1-find-us{
+    font-size: 9vw;
+    margin-top: 5vw;
+    font-family: GE-SS-Two-Bold;
+  color: white;
+  }
+
+  /* image slider section */
+  .card{
+    background-color: inherit!important;
+    border-style: dotted!important;
+    border-color: white!important;
+    margin: 5vw;
+  width: 90vw;
+  height: 75vw;
+  }
+  .card-body{
+    padding: 1vw!important;
+  }
+  /* this class is for the height and the width of the images */
+  .w-100{
+    height: 72vw!important;
+    border-radius: 2vw;
+  }
+
+  /* footer section */
+  .footer-section{
+    margin-top: 20vw;
+    opacity: 80%;
+    background-color: black;
+
+  }
+
+  .h4-about-us{
+    font-family: GE-SS-Two-Bold;
+  color: white;
+  text-align: right;
+  margin-right: 5vw;
+  font-size: 8vw;
+  margin-bottom: 7vw;
+
+  }
+
+  .p-text-about-us{
+    font-family: GE-SS-Two-Bold;
+  color: white;
+  text-align: right;
+  font-size: 5vw;
+
+  }
+  .li-width{
+    width: 60vw;
+    margin-left:35vw;
+  }
+
+  /* links */
+  .right-links{
+    text-align: right;
+    margin-top: 20vw;
+    }
+
+    .links-right-h5{
+      font-size: 7vw;
+      color: white;
+    }
+  .links-right{
+    margin-right: 5vw;
+    color: white;
+    font-family: GE-SS-Two-Bold;
+  }
+
+  .copy-right{
+  color: white;
+  font-size: 4vw;
+  }
+.pt-4,.py-4{
+  height: 131vw!important;
+}
+
+  }
+
+/* 961 or above for dicktop */
+  @media only screen and (min-width: 961px) {
+    body{
+      background-image: url(../images/dark..jpg);
+      background-repeat:no-repeat;
+      background-attachment: fixed;
+      background-position: right;
+      background-size: 100% 100%;
+        }
+
+
+
+    /* nav section */
+    .nav-background{
+      background-color:#193F6D!important;
+
+    }
+
+    .logo-size{
+    width: 15vw;
+    border-radius: 25%;
+    margin-right: 3vw;
+
+    }
+    #navbarNav{
+      text-align: right;
+    }
+
+    .nav-item {
+      margin-right: 1vw;
+    }
+
+
+    /* menu-contact-section section */
+
+    .menu-contact-section{
+      margin-top: 20vw;
+    }
+
+    .menu-contact-section-div{
+      text-align: center;
+      margin-bottom: 15vw;
+
+    }
+
+    .menu-icon-img{
+      width: 10vw;
+    }
+    .menu-icon-img-contact{
+      width:5vw;
+      margin: 0 6vw;
+    }
+
+    .h1-menu{
+      font-size: 5vw;
+      margin-top: 2vw;
+      font-family: GE-SS-Two-Bold;
+    color: white;
+    }
+
+    .h1-find-us{
+      font-size: 5vw;
+      margin-top: 2vw;
+      font-family: GE-SS-Two-Bold;
+    color: white;
+    }
+
+
+
+    /* image slider section */
+    .card{
+      background-color: inherit!important;
+      border-style: dotted!important;
+      border-color: white!important;
+      margin: 5vw;
+    width: 90vw;
+    height: 47vw;
+    }
+    .card-body{
+      padding: 1vw;
+    }
+    /* this class is for the height and the width of the images */
+    .w-100{
+      height: 45vw!important;
+      border-radius: 2vw;
+    }
+
+    /* footer section */
+    .footer-section{
+      margin-top: 20vw;
+      opacity: 80%;
+      background-color: black;
+
+
+    }
+
+    .h4-about-us{
+      font-family: GE-SS-Two-Bold;
+    color: white;
+    text-align: right;
+    margin-right: 5vw;
+    font-size: 4vw;
+    margin-bottom: 7vw;
+
+    }
+
+    .p-text-about-us{
+      font-family: GE-SS-Two-Bold;
+    color: white;
+    text-align: right;
+    font-size: 4vw;
+
+    }
+    .li-width{
+      width: 60vw;
+      margin-left:35vw;
+
+    }
+
+    /* links */
+    .right-links{
+      text-align: right;
+      margin-top: 5vw;
+      }
+
+      .links-right-h5{
+        font-size: 4vw;
+        color: white;
+      }
+    .links-right{
+      margin-right: 3vw;
+      color: white;
+      font-family: GE-SS-Two-Bold;
+      font-size: 3vw;
+
+    }
+
+    .copy-right{
+    color: white;
+    font-size: 4vw;
+    }
+
+    .pt-4,.py-4{
+      height: 75vw!important;
+    }
+
+  }
